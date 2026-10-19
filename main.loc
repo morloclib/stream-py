@@ -1,0 +1,17 @@
+--' Python implementations of the functions stream specifies
+module stream-py (*)
+
+import stream
+import root-py
+
+source Py from "stream.py"
+  ( "fold_source" as foldSource
+  , "fold_source" as foldSourceE
+  , "collect_source" as collectSource
+  , "reduce_native" as reduceNative
+  , "take_pull_native" as takePullNative
+  , "open_sorter" as openSorter
+  , "push_sorter" as pushSorter
+  , "next_sorted" as nextSortedNative
+  , "close_sorter" as closeSorter
+  )

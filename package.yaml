@@ -1,0 +1,11 @@
+name: stream-py
+version: 0.1.0
+homepage: null
+synopsis: Python implementations for the stream module
+description: Native drivers for foldSource, collectSource and runstat.
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: null
+bug-reports: null
